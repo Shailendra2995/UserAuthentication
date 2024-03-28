@@ -1,0 +1,20 @@
+body {
+	background-color: teal;
+	color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+a {
+	text-align: center;
+}
+.card-group
+{
+	padding: 20px;
+}
+.card
+{
+	margin: 20px;
+}

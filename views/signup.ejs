@@ -1,0 +1,41 @@
+<html>
+	<%- include('./partials/header') %>
+	<body>
+		<h2>SignUp Page</h2>
+		<form action="/signup" method="post">
+			<div class="mb-3 col-sm-6">
+				<label for="uname" class="form-label">Username</label>
+				<input
+					type="text"
+					class="form-control"
+					id="uname"
+					aria-describedby="emailHelp"
+					name="uname"
+				/>
+			</div>
+			<div class="mb-3 col-sm-6">
+				<label for="uemail" class="form-label">Email address</label>
+				<input
+					type="email"
+					class="form-control"
+					id="uemail"
+					aria-describedby="emailHelp"
+					name="uemail"
+				/>
+			</div>
+			<div class="mb-3 col-sm-6">
+				<label for="exampleInputPassword1" class="form-label"
+					>Password</label
+				>
+				<input
+					type="password"
+					class="form-control"
+					id="exampleInputPassword1"
+					name="upwd"
+				/>
+			</div>
+
+			<button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+	</body>
+</html>
